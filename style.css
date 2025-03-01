@@ -168,7 +168,7 @@ nav ul li a:hover {
 
 /* ------- Explore Section Design Work Start ------- */
 .explore-main {
-  background-image: url("/images/father.jpg");
+  background-image: url("./images/father.jpg"); /* Ensure correct relative path */
   padding: 150px 0px;
   background-repeat: no-repeat;
   background-position: center;
