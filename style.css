@@ -168,9 +168,13 @@ nav ul li a:hover {
 
 /* ------- Explore Section Design Work Start ------- */
 .explore-main {
-  background: url("../images/father.jpg") center/cover no-repeat,
-    rgba(0, 38, 255, 0.263);
+  background-image: url(../images/father.jpg);
+  padding: 150px 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 38, 255, 0.263);
   background-blend-mode: multiply;
+  background-size: cover;
   color: white;
   background-attachment: fixed;
 }
@@ -197,7 +201,7 @@ nav ul li a:hover {
 .explore-item span {
   background-color: red;
   height: 6px;
-  width: 190px;
+  width: 253px;
   display: inline-block;
   border-radius: 10px;
 }
@@ -208,6 +212,10 @@ nav ul li a:hover {
   font-weight: 600;
   text-transform: capitalize;
   text-decoration: none;
+}
+.explore-item a:hover {
+  color: black;
+  text-decoration: underline;
 }
 
 /* ------- Explore Section Design Work Finish ------- */
